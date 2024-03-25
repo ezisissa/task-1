@@ -1,0 +1,85 @@
+.about-me-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(227, 227, 227);
+}
+.description-info,
+.contact-info {
+    margin: 30px 30px;
+}
+
+
+.description-info {
+    flex: 2;
+}
+.contact-info {
+    flex: 1;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-bottom: 10px;
+}
+
+.experience {
+    padding: 20px;
+}
+
+.hobbies {
+    display: inline-block;
+    width: 15px;
+    padding-left: 25px;
+}
+
+.h-disc {
+    display: inline-block;
+}
+
+.contact-me {
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.references h3,
+.about-us h3 {
+    margin-left: 20px;
+    padding-top: 35px;
+}
+.about-us p{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.reference-table,th, td {
+    border: solid;
+    border-color: #DBDFE3;
+    margin-left: 25px;
+}
+.about-us {
+    margin-bottom:25px;
+    border-bottom: solid;
+    border-color: #DBDFE3;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+.footer {
+    text-align: center;
+}
+h6 {
+    margin: 0;
+}
+footer a{
+    font-size: 12px;
+    margin-bottom: 12px;
+}

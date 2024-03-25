@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background-color: #F6F8FA;
+    min-width: 860px;
+}
+
+p {
+    margin: 0;
+    font-family: Roboto, Arial;
+}
+
+.about-me-flex,
+.experience,
+.contact-me,
+.references, .about-us {
+    background-color: #FFFFFF;
+    border-right: solid;
+    border-left: solid;
+    border-color: #DBDFE3;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+h2{
+    margin: 0;
+    padding: 20px 10px;
+}
+h3 {
+    margin-top: 0px;
+    padding: 10px;
+}
+iframe {
+    width: 250px;
+    height: 250px;
+    border: none;
+    border-radius: 50%;
+}
+.map {
+    margin-top: 30px;
+}
+.input {
+    border-radius: 2px;
+    max-width: 200px;
+    margin-left: 10px;
+}
